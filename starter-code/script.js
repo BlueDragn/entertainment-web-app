@@ -37,3 +37,10 @@ fetch('data.json')
     .catch(error => {
         console.error('Error:', error);
     });
+
+
+
+    //search bar
+    const searchInput = document.getElementById("search-input");//select the search bar
+
+
