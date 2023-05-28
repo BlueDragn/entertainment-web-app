@@ -166,53 +166,78 @@ input:valid {
 
 
 /*** Search Bar Style Ends**/
-.sign-in{
+.sign-in {
     max-width: 336px;
 }
+
 .m {
     max-width: 336px;
     height: 37px;
     display: flex;
-  }
-  
-  .m > input{
-   width: 336px;
-   height: 100%;
+}
+
+.m>input {
+    width: 336px;
+    height: 100%;
     border-bottom: 1px solid var(--greyish_blue);
     color: var(--pure_white);
-  }
 
-  
-  .input-field.empty {
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 19px;
+}
+
+
+.input-field.empty {
     border-bottom-width: 1px;
     border-bottom-color: var(--greyish_blue);
-  }
-  
-  input.active,
-  input:focus {
+}
+
+input.active,
+input:focus {
     caret-color: var(--red);
     border-bottom-width: 2px;
     border-bottom-color: var(--pure_white);
 
     font-family: 'Outfit';
-font-style: normal;
-font-weight: 300;
-font-size: 15px;
-line-height: 19px;
-  }
-  
-  input.error {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 19px;
+}
+
+input.error {
     border-bottom-width: 1px;
     border-bottom-color: var(--red);
-  }
-  .error-msg{
+}
+
+.error-msg {
     font-family: 'Outfit';
-font-style: normal;
-font-weight: 300;
-font-size: 13px;
-line-height: 16px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
 
-/* Red */
+    /* Red */
 
-color: #FC4747;
-  }
+    color: #FC4747;
+}
+
+/***buttons ***/
+
+.log_in_btn {
+    width: 336px;
+    height: 48px;
+    background-color: var(--red);
+    color: var(--pure_white);
+    border-radius: 6px;
+    outline: none;
+    border: none;
+}
+.log_in_btn:hover{
+    background-color: var(--pure_white);
+    color:var(--semi_dark_blue) ;
+}
