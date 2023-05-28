@@ -241,3 +241,61 @@ input.error {
     background-color: var(--pure_white);
     color:var(--semi_dark_blue) ;
 }
+
+
+/** Card **/
+
+.card{
+
+width: fit-content;
+/* border: 1px solid red; */
+position: relative;
+}
+
+ .bookmark{
+width: 32px;
+height: 32px;
+/**background **/
+ background: #10141E;
+mix-blend-mode: normal;
+opacity: 0.5;
+border-radius: 50%;
+/** positioning **/
+ display: flex;
+justify-content: center;
+align-items: center;
+
+position: absolute;
+top:20px;
+right:50px;
+
+
+ }
+  .bookmark:hover{
+    background: var(--pure_white);
+}
+.bookmark-icon:hover{
+stroke: black;
+background-color: aliceblue;
+
+}
+
+figcaption{
+    display: flex;
+    flex-direction: column;
+}
+.show-info-list{
+    display: flex;
+    gap: 10px;
+
+
+
+}
+.tumbnail-info >h2{
+margin-left: 40px;
+margin-bottom: 10px;
+margin-top: 0;
+}
+figure >img{
+    border-radius: 8px;
+}
