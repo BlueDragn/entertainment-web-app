@@ -330,7 +330,7 @@ margin-top:60px;
 .login_card {
 
     /* width: 327px; */
-    height: 365px;
+    min-height: 365px;
     background: #161D2F;
     border-radius: 10px;
     padding: 24px;

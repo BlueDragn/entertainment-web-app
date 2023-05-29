@@ -5,20 +5,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="/src/Styles/style.css">
   <title>Frontend Mentor | Entertainment web app</title>
 </head>
 <body>
 
-  Sign Up
+  <section class="login_page">
 
-  Email address
-  Password
-  Repeat password
+    <header>
+      <svg width="33" height="27" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="m26.463.408 3.2 6.4h-4.8l-3.2-6.4h-3.2l3.2 6.4h-4.8l-3.2-6.4h-3.2l3.2 6.4h-4.8l-3.2-6.4h-1.6a3.186 3.186 0 0 0-3.184 3.2l-.016 19.2a3.2 3.2 0 0 0 3.2 3.2h25.6a3.2 3.2 0 0 0 3.2-3.2V.408h-6.4Z"
+          fill="#FC4747" /></svg>
+    </header>
 
-  Create an account
 
-  Already have an account? Login
-  
+  <!-- Login Card-->
+  <section class="login_container">
+
+    <div class="login_card">
+    <h2> Sign Up</h2>
+    <form class="sign-in">
+      <div class="m">
+        <input type="email" name="email" placeholder=" Email address" class="input-field">
+        <input type="password" name="password" placeholder=" Password" class="input-field">
+        <input type="password" name="password" placeholder="Repeat password" class="input-field">
+        <button class="log_in_btn"> Create an account</button>
+      </div>
+    </form>
+    <p> Already have an account?<span>   Login
+    </span></p>
+  </div>
+
+  </section>
+  </section>
 </body>
 </html>
