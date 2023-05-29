@@ -172,12 +172,12 @@ input:valid {
 
 .m {
     max-width: 336px;
-    height: 37px;
-    display: flex;
+    /* height: 37px; */
+    /* display: flex; */
 }
 
 .m>input {
-    width: 336px;
+    max-width: 336px;
     height: 100%;
     border-bottom: 1px solid var(--greyish_blue);
     color: var(--pure_white);
@@ -229,7 +229,7 @@ input.error {
 /***buttons ***/
 
 .log_in_btn {
-    width: 336px;
+    max-width: 336px;
     height: 48px;
     background-color: var(--red);
     color: var(--pure_white);
@@ -237,65 +237,114 @@ input.error {
     outline: none;
     border: none;
 }
-.log_in_btn:hover{
+
+.log_in_btn:hover {
     background-color: var(--pure_white);
-    color:var(--semi_dark_blue) ;
+    color: var(--semi_dark_blue);
 }
 
 
 /** Card **/
 
-.card{
+.card {
 
-width: fit-content;
-/* border: 1px solid red; */
-position: relative;
+    width: fit-content;
+    /* border: 1px solid red; */
+    position: relative;
 }
 
- .bookmark{
-width: 32px;
-height: 32px;
-/**background **/
- background: #10141E;
-mix-blend-mode: normal;
-opacity: 0.5;
-border-radius: 50%;
-/** positioning **/
- display: flex;
-justify-content: center;
-align-items: center;
+.bookmark {
+    width: 32px;
+    height: 32px;
+    /**background **/
+    background: #10141E;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    border-radius: 50%;
+    /** positioning **/
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-position: absolute;
-top:20px;
-right:50px;
+    position: absolute;
+    top: 20px;
+    right: 50px;
 
 
- }
-  .bookmark:hover{
+}
+
+.bookmark:hover {
     background: var(--pure_white);
 }
-.bookmark-icon:hover{
-stroke: black;
-background-color: aliceblue;
+
+.bookmark-icon:hover {
+    stroke: black;
+    background-color: aliceblue;
 
 }
 
-figcaption{
+figcaption {
     display: flex;
     flex-direction: column;
 }
-.show-info-list{
+
+.show-info-list {
     display: flex;
     gap: 10px;
 
 
 
 }
-.tumbnail-info >h2{
-margin-left: 40px;
-margin-bottom: 10px;
-margin-top: 0;
+
+.tumbnail-info>h2 {
+    margin-left: 40px;
+    margin-bottom: 10px;
+    margin-top: 0;
 }
-figure >img{
+
+figure>img {
     border-radius: 8px;
+}
+
+
+
+
+/*** Log in Page ***/
+
+
+.login_page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.login_container {
+margin-left: 24px;
+margin-right: 24px;
+margin-top:60px;
+
+
+}
+
+.login_card {
+
+    /* width: 327px; */
+    height: 365px;
+    background: #161D2F;
+    border-radius: 10px;
+    padding: 24px;
+
+}
+
+.m {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.login_card >p {
+    padding: 24px;
+}
+.login_card > p >span{
+    color: var(--red);
 }
