@@ -396,6 +396,11 @@ opacity: 0.5;
 
 
 /*** Trending Section ***/
+.trendins-items{
+    display: flex;
+    overflow: scroll;
+    
+}
 .trending{
 width: 496px;
 height: 181px;

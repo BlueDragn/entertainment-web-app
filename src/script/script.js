@@ -1,4 +1,4 @@
-fetch('data.json')
+fetch("./src/data.json")
     .then(response => response.json())
     .then(data => {
         // Store the JSON data in a variable
@@ -8,7 +8,7 @@ fetch('data.json')
         console.log(jsonData);
 
 
-        const showsCardsElement = document.querySelector(".cards");
+        const showsCardsElement = document.querySelector(".trendins-items");
 
         jsonData.forEach((item) => {
 
