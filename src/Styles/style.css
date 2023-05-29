@@ -393,3 +393,10 @@ opacity: 0.5;
 .search-container{
     margin-top: 24px;
 }
+
+
+/*** Trending Section ***/
+.trending{
+width: 496px;
+height: 181px;
+}
